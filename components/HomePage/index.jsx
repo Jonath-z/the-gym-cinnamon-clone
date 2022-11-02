@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../modules/Footer";
 import Header from "../modules/Header";
 import AboutUs from "./AboutUs";
 import AgileTeam from "./AgileTeam";
@@ -27,6 +28,7 @@ const HomePage = () => {
       <Locations />
       <ArticleContainer />
       <Prefooter />
+      <Footer />
     </main>
   );
 };

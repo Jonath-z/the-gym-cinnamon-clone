@@ -9,13 +9,8 @@ const AgileTeam = () => {
       <h2 className="font-montBold text-4.5xl">
         Agile team <br /> on demand
       </h2>
-      <div className="relative w-[300px] h-[236px]">
-        <Image
-          src="/images/agile-team-.webp"
-          alt="agile team"
-          fill={true}
-          objectFit="contain"
-        />
+      <div className="relative w-[266px] h-[173px]">
+        <Image src="/images/agile-team-.webp" alt="agile team" fill={true} />
       </div>
 
       <DescriptionCard>
