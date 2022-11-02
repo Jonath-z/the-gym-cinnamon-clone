@@ -9,7 +9,7 @@ const ServiceCard = ({ service }) => {
         <Image src={imageUrl} alt={title} width={48} height={48} />
       </div>
 
-      <h3 className="text-white text-xl font-montBold py-2 leading-[56px]">
+      <h3 className="text-white text-xl font-montBold py-2 leading-large">
         {title}
       </h3>
       <p className="text-base text-semi-gray font-montHavy-extralight font-black">
